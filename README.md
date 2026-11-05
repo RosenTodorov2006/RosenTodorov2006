@@ -24,14 +24,14 @@
 
 <br />
 
-## 01 / Flagship project — AI Knowledge Hub
+## 01 / Flagship project — AI Tutor
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/flagship-mobile-dark.svg" />
   <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/flagship-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/flagship-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/flagship-light.svg" />
-  <img src="./assets/flagship-dark.svg" width="100%" alt="AI Knowledge Hub — personalized AI learning platform with React, Spring Boot, RAG and experimental voice tutoring" />
+  <img src="./assets/flagship-dark.svg" width="100%" alt="AI Tutor — personalized AI learning platform with React, Spring Boot, RAG and experimental voice tutoring" />
 </picture>
 
 > **In active development · Source code private** · A personalized AI learning platform for school students, built as a separate **React/TypeScript frontend** and **Java/Spring Boot backend**.
