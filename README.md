@@ -16,21 +16,13 @@
 
 <br />
 
-<a href="https://www.linkedin.com/in/rosen-todorov-230805264/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-1877F2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/RosenTodorov2006?tab=repositories"><img alt="GitHub repositories" src="https://img.shields.io/badge/GitHub-Explore_Projects-252B42?style=for-the-badge&logo=github&logoColor=white" /></a>
-<img alt="Based in Bulgaria" src="https://img.shields.io/badge/Based_in-Bulgaria-12A594?style=for-the-badge" />
+<a href="https://www.linkedin.com/in/rosen-todorov-230805264/" title="Connect with me on LinkedIn"><img src="./assets/button-linkedin.svg" alt="LinkedIn — Let's connect" width="194" height="54" /></a>
+<a href="https://github.com/RosenTodorov2006?tab=repositories" title="Explore my repositories"><img src="./assets/button-github.svg" alt="GitHub — Explore projects" width="215" height="54" /></a>
+<img src="./assets/button-location.svg" alt="Based in Bulgaria" width="186" height="54" />
 
 </div>
 
 <br />
-
-### 👋 A little about me
-
-I'm **Rosen Todorov**, a developer from **Stara Zagora, Bulgaria**. I enjoy turning ideas into useful products — from **Spring Boot platforms** and **React applications** to **RAG pipelines**, vector search, and experimental real-time AI experiences.
-
-I study at **Technical University of Sofia** and have **completed SoftUni's Java development learning path**, including Java fundamentals, Advanced, OOP, databases and Java Web. My current focus is combining strong backend engineering with AI systems that can help people learn.
-
----
 
 ## 01 / Flagship project — AI Knowledge Hub
 
@@ -42,7 +34,7 @@ I study at **Technical University of Sofia** and have **completed SoftUni's Java
   <img src="./assets/flagship-dark.svg" width="100%" alt="AI Knowledge Hub — personalized AI learning platform with React, Spring Boot, RAG and experimental voice tutoring" />
 </picture>
 
-> **In active development** · A personalized AI learning platform for school students, built as a separate **React/TypeScript frontend** and **Java/Spring Boot backend**.
+> **In active development · Source code private** · A personalized AI learning platform for school students, built as a separate **React/TypeScript frontend** and **Java/Spring Boot backend**.
 
 The goal is to make studying more engaging through adaptive tutoring, curriculum-aware retrieval and conversational AI.
 
@@ -69,6 +61,14 @@ The goal is to make studying more engaging through adaptive tutoring, curriculum
 
 ---
 
+### 👋 A little about me
+
+I'm **Rosen Todorov**, a developer from **Stara Zagora, Bulgaria**. I enjoy turning ideas into useful products — from **Spring Boot platforms** and **React applications** to **RAG pipelines**, vector search, and experimental real-time AI experiences.
+
+I study at **Technical University of Sofia** and have **completed SoftUni's Java development learning path**, including Java fundamentals, Advanced, OOP, databases and Java Web. My current focus is combining strong backend engineering with AI systems that can help people learn.
+
+---
+
 ## 02 / Engineering stack
 
 <picture>
@@ -89,8 +89,8 @@ Alongside my primary stack, I have worked with **C#, ASP.NET Core, MySQL, Python
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RosenTodorov2006/AI-Knowledge-Hub"><img src="./assets/rag-platform.svg" width="100%" alt="AI Knowledge Hub — document intelligence" /></a>
-<p><strong><a href="https://github.com/RosenTodorov2006/AI-Knowledge-Hub">AI Knowledge Hub — RAG</a></strong></p>
-<p>Document-based question answering and semantic search, using Spring Boot, PostgreSQL and vector retrieval.</p>
+<p><strong><a href="https://github.com/RosenTodorov2006/AI-Knowledge-Hub">AI Knowledge Hub — Document RAG</a></strong></p>
+<p>A separate public document Q&amp;A project using Spring Boot, PostgreSQL and semantic vector retrieval.</p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RosenTodorov2006/PremierLeagueScoresApp"><img src="./assets/football.svg" width="100%" alt="Premier League Scores App" /></a>
