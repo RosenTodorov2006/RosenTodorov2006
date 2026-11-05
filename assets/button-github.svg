@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="54" viewBox="0 0 215 54" role="img" aria-label="GitHub: EXPLORE PROJECTS">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121E37"/><stop offset="1" stop-color="#0C1426"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#AF92FF" stop-opacity=".7"/><stop offset="1" stop-color="#AF92FF" stop-opacity=".22"/></linearGradient></defs>
+<rect x="1" y="1" width="213" height="52" rx="14" fill="url(#g)" stroke="url(#edge)" stroke-width="1.5"/>
+<rect x="10" y="9" width="36" height="36" rx="10" fill="#AF92FF" fill-opacity=".16" stroke="#AF92FF" stroke-opacity=".38"/>
+<path d="M25 19L19 27L25 35M32 19L38 27L32 35" fill="none" stroke="#BCABFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="24" fill="#EEF4FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">GitHub</text>
+<text x="56" y="39" fill="#A9BED9" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing=".9">EXPLORE PROJECTS</text>
+</svg>
