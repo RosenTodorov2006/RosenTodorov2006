@@ -34,6 +34,8 @@
   <img src="./assets/flagship-dark.svg" width="100%" alt="AI Tutor — personalized AI learning platform with React, Spring Boot, RAG and experimental voice tutoring" />
 </picture>
 
+<sub>Illustrative product UI concept — not a screenshot of a released application.</sub>
+
 > **In active development · Source code private** · A personalized AI learning platform for school students, built as a separate **React/TypeScript frontend** and **Java/Spring Boot backend**.
 
 The goal is to make studying more engaging through adaptive tutoring, curriculum-aware retrieval and conversational AI.
