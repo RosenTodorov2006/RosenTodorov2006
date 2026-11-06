@@ -1,0 +1,41 @@
+name: Aurora 3D Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1 * * *' # 01:17 UTC daily
+  push:
+    paths:
+      - '.github/workflows/profile-3d.yml'
+      - '.github/profile-3d-settings.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d-contributions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-settings.json
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(profile): refresh 3D contributions'
+            git push
+          fi
