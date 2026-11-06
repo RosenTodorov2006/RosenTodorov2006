@@ -135,6 +135,22 @@ Alongside my primary stack, I have worked with **C#, ASP.NET Core, MySQL, Python
 </tr>
 </table>
 
+
+---
+
+## 05 / Developer activity — Aurora 3D
+
+<div align="center">
+
+<p><strong>Building consistently, one commit at a time.</strong></p>
+<p>A live, isometric view of my GitHub contribution history — styled to match this portfolio's violet and cyan palette.</p>
+
+<img src="./profile-3d-contrib/profile-aurora.svg" width="100%" alt="Rosen Todorov's automatically updated 3D GitHub contribution calendar, in Aurora purple and cyan" />
+
+<sub>Generated from real GitHub contributions · Automatically refreshed daily with GitHub Actions</sub>
+
+</div>
+
 ---
 
 <div align="center">
