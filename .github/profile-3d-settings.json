@@ -1,0 +1,32 @@
+{
+  "type": "normal",
+  "fileName": "profile-aurora.svg",
+  "backgroundColor": "#F7F9FF",
+  "foregroundColor": "#19233C",
+  "strongColor": "#34416C",
+  "weakColor": "#647594",
+  "radarColor": "#7E6BED",
+  "growingAnimation": true,
+  "contribColors": [
+    "#E9EEF8",
+    "#BED8ED",
+    "#A6A0F0",
+    "#836AEA",
+    "#3CAEC9"
+  ],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#0D1426",
+    "foregroundColor": "#EEF2FF",
+    "strongColor": "#C9BCFF",
+    "weakColor": "#A5B4D0",
+    "radarColor": "#36D5D1",
+    "contribColors": [
+      "#1A2540",
+      "#36527C",
+      "#5C53AE",
+      "#886AEB",
+      "#38D8D2"
+    ]
+  }
+}
